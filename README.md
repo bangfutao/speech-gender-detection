@@ -10,8 +10,8 @@ Lower pitch is classified as male, and higher pitch is classified as female.
   
 ## Tests
 
-- speech-gender-detection$> python ./speech-vad.py --wavfile ./OSR_uk_000_0022_8k.wav
-- speech-gender-detection$> python ./speech-vad.py --wavfile ./OSR_us_000_0019_8k.wav
+- speech-gender-detection$> python ./speech-pitch.py --wavfile ./OSR_uk_000_0022_8k.wav
+- speech-gender-detection$> python ./speech-pitch.py --wavfile ./OSR_us_000_0019_8k.wav
 
 ## Test results
 
