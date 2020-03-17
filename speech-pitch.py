@@ -195,6 +195,7 @@ if __name__ == "__main__":
     axs[0].set_title('audio signal')
     axs[1].plot(xf, filter_bank, color="blue")
     axs[1].axvline(x=F0,color='red')
+    axs[1].axvline(x=170,color='black',linestyle='dashed')
     axs[1].set_xlabel('frequency (Hz)')
     axs[1].set_ylabel('magnitude')
     axs[1].set_title('pitch estimation')
